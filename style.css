@@ -1,0 +1,75 @@
+body
+{
+	background-color: #303030;
+	color: white;
+	font-size: 20px;
+	font-family: Verdana;
+}
+
+.glowny
+{
+	margin:auto;
+	width:1000px;
+}
+
+#tytul
+{
+	font-size:38px;
+	font-weight:700;
+	margin-bottom:20px;
+	text-align: center;
+}
+
+#formularz 
+{	
+	margin: auto;
+	padding:10px;
+	width: 380px;
+	text-align:right;
+	background-color:#666666;
+}
+#formularz input
+{
+	margin:3px;
+}
+
+#formularz label
+{
+	margin:5px;
+	font-size: 16px;
+}
+.blad
+{
+	color:red;
+	font_size: 16px;
+	
+}
+#formularz2 
+{	
+	margin: auto;
+	margin-top:15px;
+	padding:10px;
+	width: 380px;
+	text-align:center;
+	background-color:#666666;
+}
+#formularz2 input
+{
+	padding: 5px;
+	
+}
+#naglowek
+{
+	text-align:center;
+	margin-top:20px;
+	font-size:35px;
+	color:orange;
+}
+
+#komunikat
+{
+	margin:auto;
+	width:400px;
+	margin-top: 40px;
+	text-align:center;
+}
