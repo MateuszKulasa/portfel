@@ -28,6 +28,7 @@ session_start();
 				if ($has==$wyn['haslo'])
 				{
 					$_SESSION ['imie']=$wyn['imie'];
+					$_SESSION ['id_uzyt']=$wyn['Id_uzytkownika'];
 					header ('Location: glowny.php');
 				}
 				else

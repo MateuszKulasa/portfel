@@ -1,9 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<title> rejestracja </title>
-</head>
-<body>
+ 
 <?php
 session_start();
 require_once "polaczenie.php";
@@ -26,5 +21,3 @@ if (!mysqli_query($polaczenie, $sql))
 $polaczenie->close();
 header ('Location: index.php');
 ?>
-</body>
-</html>

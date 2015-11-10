@@ -11,6 +11,7 @@
 	echo "dziala!";
 	echo " Witaj ".$_SESSION ['imie'];
 ?>
+<a href="kafelek.php">tu kliknij </a>
 </div>
 </body>
 </html>
